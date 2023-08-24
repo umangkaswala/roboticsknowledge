@@ -1,0 +1,338 @@
+# Wiki links. These show up in the sidebar in the order they appear here.
+wiki:
+  - title: Overview
+    children:
+      - title: Home
+        url: /
+      - title: About
+        url: /about/
+      - title: Wiki Index
+        url: /wiki/
+      - title: Contribute
+        url: /docs/
+  - title: System Design & Development
+    url: /wiki/system-design-development/
+    children:
+      - title: System Engineering
+        url: /wiki/system-design-development/system-engineering/
+      - title: Mechanical Design
+        url: /wiki/system-design-development/mechanical-design/
+      - title: Printed Circuit Board Design
+        url: /wiki/system-design-development/pcb-design/
+      - title: Cable Management
+        url: /wiki/system-design-development/cable-management/
+      - title: Subsystem Interface Modeling
+        url: /wiki/system-design-development/subsystem-interface-modeling/
+      - title: In Loop Testing
+        url: /wiki/system-design-development/In-Loop-Testing/
+  - title: Project Management
+    url: /wiki/project-management/
+    children:
+      - title: Drone Flight Permissions
+        url: /wiki/project-management/drone-flight-permissions/
+      - title: Product Development in Complex Systems
+        url: /wiki/project-management/product-development-complex-systems/
+      - title: Risk Management
+        url: /wiki/project-management/risk-management/
+      - title: Jira
+        url: /wiki/project-management/jira/
+  - title: Common Platforms
+    url: /wiki/common-platforms/
+    children:
+      - title: DJI Breakdown for Technical Projects
+        url: /wiki/common-platforms/dji-drone-breakdown-for-technical-projects/
+      - title: DJI SDK
+        url: /wiki/common-platforms/dji-sdk/
+      - title: Pixhawk
+        url: /wiki/common-platforms/pixhawk/
+      - title: Asctec Pelican UAV Setup Guide
+        url: /wiki/common-platforms/asctec-uav-setup-guide/
+      - title: Husky Interfacing Procedure
+        url: /wiki/common-platforms/husky_interfacing_and_communication/
+      - title: Universal Robots UR5e Collaborative Robotic Arm
+        url: /wiki/common-platforms/ur5e/
+      - title: ROS Introduction
+        url: /wiki/common-platforms/ros/ros-intro/
+      - title: ROS Arduino Interface
+        url: /wiki/common-platforms/ros/ros-arduino-interface/
+      - title: ROS Motion Server Framework
+        url: /wiki/common-platforms/ros/ros-motion-server-framework/
+      - title: ROS Cost Maps
+        url: /wiki/common-platforms/ros/ros-cost-maps/
+      - title: ROS Mapping and Localization
+        url: /wiki/common-platforms/ros/ros-mapping-localization/
+      - title: ROS Navigation
+        url: /wiki/common-platforms/ros/ros-navigation/
+      - title: ROS Global Planner
+        url: /wiki/common-platforms/ros/ros-global-planner/
+  - title: Sensing
+    url: /wiki/sensing/
+    children:
+      - title: Tracking vehicles using a static traffic camera
+        url: /wiki/sensing/trajectory_extraction/
+      - title: Adafruit GPS
+        url: /wiki/sensing/adafruit-gps/
+      - title: AprilTags
+        url: /wiki/sensing/apriltags/
+      - title: Stag
+        url: /wiki/sensing/stag/
+      - title: Camera Calibration
+        url: /wiki/sensing/camera-calibration/
+      - title: Computer Vision Consideration
+        url: /wiki/sensing/computer-vision-considerations/
+      - title: Delphi ESR Radar
+        url: /wiki/sensing/delphi-esr-radar/
+      - title: Point Cloud Library, 3D Sensors and Applications
+        url: /wiki/sensing/pcl/
+      - title: Photometric Calibration
+        url: /wiki/sensing/photometric-calibration/
+      - title: Speech Recognition
+        url: /wiki/sensing/speech-recognition/
+      - title: Stereo Vision in OpenCV
+        url: /wiki/sensing/opencv-stereo/
+      - title: Camera-IMU Calibration using kalibr
+        url: /wiki/sensing/camera-imu-calibration/
+      - title: Fiducial Markers
+        url: /wiki/sensing/fiducial-markers/
+      - title: RTK GPS
+        url: /wiki/sensing/gps/
+      - title: Intel Realsense
+        url: /wiki/sensing/realsense/
+      - title: Thermal Cameras
+        url: /wiki/sensing/thermal-cameras/
+  - title: Actuation
+    url: /wiki/actuation/
+    children:
+      - title: Motor Controller Feedback
+        url: /wiki/actuation/motor-controller-feedback/
+      - title: PID Control on Arduino
+        url: /wiki/actuation/pid-control-arduino/
+      - title: Linear Actuator Types
+        url: /wiki/actuation/linear-actuator-resources/
+      - title: ULN2003A Motor Controller
+        url: /wiki/actuation/uln2003a-motor-controller/
+      - title: Vedder Electronic Speed Controller
+        url: /wiki/actuation/vedder-electronic-speed-controller/
+      - title: Pure Pursuit Controller for Skid Steering
+        url: /wiki/actuation/Pure-Pursuit-Controller-for-Skid-Steering-Robot.md
+      - title: MoveIt Motion Planning and HEBI Actuator Setup and Integration
+        url: /wiki/actuation/moveit-and-HEBI-integration.md
+      - title: Model Predictive Control Introduction and Setup
+        url: /wiki/actuation/model-predictive-control/
+      - title: Task Prioritization Control for Advanced Manipulator Control
+        url: /wiki/actuation/task-prioritization-control/
+      - title: Drive-by-wire Conversion for Autonomous Vehicle
+        url: /wiki/actuation/drive-by-wire/
+  - title: Machine Learning
+    url: /wiki/machine-learning/
+    children:
+      - title: Training darknet on a custom dataset
+        url: /wiki/machine-learning/train-darknet-on-custom-dataset/
+      - title: Custom data-set for segmentation
+        url: /wiki/machine-learning/custom-semantic-data/
+      - title: Python libraries for Reinforcement Learning
+        url: /wiki/machine-learning/python-libraries-for-reinforcement-learning/
+      - title: Reinforcement Learning
+        url: /wiki/machine-learning/intro-to-rl
+      - title: YOLO Integration with ROS and Running with CUDA GPU
+        url: /wiki/sensing/ros-yolo-gpu/
+      - title: YOLOv5 Training and Deployment on NVIDIA Jetson Platforms
+        url: /wiki/machine-learning/yolov5-tensorrt/
+      - title: Mediapipe - Live ML anywhere
+        url: /wiki/machine-learning/mediapipe-live-ml-anywhere.md/
+      - title: NLP for robotics
+        url: /wiki/machine-learning/nlp_for_robotics.md/
+  - title: State Estimation
+    url: /wiki/state-estimation/
+    children:
+      - title: Adaptive Monte Carlo Localization
+        url: /wiki/state-estimation/adaptive-monte-carlo-localization/
+      - title: Sensor Fusion and Tracking
+        url: /wiki/state-estimation/radar-camera-sensor-fusion/
+      - title: SBPL Lattice Planner
+        url: /wiki/state-estimation/sbpl-lattice-planner/
+      - title: ORB SLAM2 Setup Guidance
+        url: /wiki/state-estimation/orb-slam2-setup/
+      - title: Visual Servoing
+        url: /wiki/state-estimation/visual-servoing/
+      - title: Cartographer SLAM ROS Integration 
+        url: /wiki/state-estimation/Cartographer-ROS-Integration/
+  - title: Programming
+    url:  /wiki/programming/
+    children:
+      - title: Boost Library
+        url: /wiki/programming/boost-library/
+      - title: Boost Maps and Vectors
+        url: /wiki/programming/boost-maps-vectors/
+      - title: Cmake
+        url: /wiki/programming/cmake/
+      - title: Eigen Library
+        url: /wiki/programming/eigen-library/
+      - title: Git
+        url: /wiki/programming/git/
+      - title: Programming Interviews
+        url: /wiki/programming/google-programming-interviews/
+      - title: Multithreaded Programming
+        url: /wiki/programming/multithreaded-programming/
+      - title: Programming Tutorials and Resources
+        url: /wiki/programming/tutorials-resources/
+      - title: Python Construct
+        url: /wiki/programming/python-construct/
+  - title: Networking
+    url: /wiki/networking/
+    children:
+      - title: Bluetooth Sockets
+        url: /wiki/networking/bluetooth-sockets/
+      - title: Xbee Pro DigiMesh 900
+        url: /wiki/networking/xbee-pro-digimesh-900/
+      - title: ROCON Multi-Master Framework
+        url: /wiki/networking/rocon-multi-master/
+      - title: ROS over Multiple Machines
+        url: /wiki/networking/ros-distributed/
+      - title: Setting up WiFi hotspot at the boot up for Linux devices 
+        url: /wiki/networking/wifi-hotspot/
+  - title: Simulation
+    url: /wiki/simulation/
+    children:
+      - title: Building a Light Weight Custom Simulator
+        url: /wiki/simulation/Building-a-Light-Weight-Custom-Simulator/
+      - title: Design considerations for ROS architectures
+        url: /wiki/simulation/Design-considerations-for-ROS-architectures
+      - title: Spawning and Controlling Vehicles in CARLA
+        url: /wiki/simulation/Spawning-and-Controlling-Vehicles-in-CARLA
+      - title: NDT Matching with Autoware
+        url: /wiki/simulation/NDT-Matching-with-Autoware/
+  - title: Interfacing
+    url: /wiki/interfacing/
+    children:
+      - title: Myo
+        url: /wiki/interfacing/myo/
+      - title: Blink(1) LED
+        url: /wiki/interfacing/blink-1-led/
+      - title: micro-ROS for ROS2 on Microcontrollers
+        url: /wiki/interfacing/microros-for-ros2-on-microcontrollers/
+      - title: ROS 1 - ROS 2 Bridge
+        url: /wiki/interfacing/ros1_ros2_bridge/
+  - title: Computing
+    url: /wiki/computing/
+    children:
+      - title: Amazon Web Services Quickstart
+        url: wiki/computing/aws-quickstart.md
+      - title: Adruino
+        url: /wiki/computing/arduino/
+      - title: Single Board Computers
+        url: /wiki/computing/single-board-computers/
+      - title: Upgrading Ubuntu Kernels
+        url: /wiki/computing/upgrading-ubuntu-kenel/
+      - title: Ubuntu 14.04 on Chromebook
+        url: /wiki/computing/ubuntu-chromebook/
+      - title: Setup your GPU System for Computer Vision
+        url: /wiki/computing/setup-gpus-for-computer-vision/
+  - title: Fabrication
+    url: /wiki/fabrication/
+    children:
+      - title: Fabrication Considerations for 3D printing
+        url: /wiki/fabrication/fabrication_considerations_for_3D_printing/
+      - title: Machining & Prototyping
+        url: /wiki/fabrication/machining-prototyping/
+      - title: Rapid Prototyping
+        url: /wiki/fabrication/rapid-prototyping/
+      - title: Turning Process
+        url: /wiki/fabrication/turning-process/
+      - title: Milling Process
+        url: /wiki/fabrication/milling-process/
+      - title: Soldering
+        url: /wiki/fabrication/soldering/
+      - title: 3D Printers
+        url: /wiki/fabrication/3d-printers/
+      - title: MakerBot Replicator 2x
+        url: /wiki/fabrication/makerbot-replicator-2x/
+      - title: CubePro
+        url: /wiki/fabrication/cube-pro/
+      - title: Series A Pro Printer
+        url: /wiki/fabrication/series-A-pro/
+  - title: Math
+    url: /wiki/math/
+    children:
+      - title: Gaussian Process and Gaussian Mixture Model
+        url: /wiki/math/gaussian-process-gaussian-mixture-model/
+      - title: Registration Techniques in Robotics
+        url: /wiki/math/registration-techniques/
+  - title: Tools
+    url: /wiki/tools/
+    children:
+      - title: Docker
+        url: /wiki/tools/docker/
+      - title: Vim
+        url: /wiki/tools/vim/
+      - title: Altium Circuitmaker
+        url: /wiki/tools/altium-circuitmaker/
+      - title: SolidWorks
+        url: /wiki/tools/solidworks/
+      - title: TMUX
+        url: /wiki/tools/tmux/
+      - title: udev Rules
+        url: /wiki/tools/udev-rules/
+      - title: Rosbags in Matlab
+        url: /wiki/tools/rosbags-matlab/
+      - title: Making Field Testing Easier through Visualization and Simulation
+        url: /wiki/tools/visualization-simulation/
+      - title: CLion IDE
+        url: /wiki/tools/clion/
+      - title: Stream Rviz Visualizations as Images
+        url: /wiki/tools/stream-rviz/
+      - title: Web-Based Visualization using ROS JavaScript Library
+        url: /wiki/tools/roslibjs/
+      - title: Gazebo Simulation
+        url: /wiki/tools/gazebo-simulation/
+      - title: Code Editors - Introduction to VS Code and Vim
+        url: /wiki/tools/code-editors-Introduction-to-vs-code-and-vim/
+      - title: Qtcreator UI development with ROS
+        url: /wiki/tools/Qtcreator-ros/
+  - title: Datasets
+    url: /wiki/datasets/
+    children:
+      - title: Traffic Modelling Datasets
+      - url: /wiki/datasets/traffic-modelling-datasets/
+      - title: Open-Source Datasets
+      - url: /wiki/datasets/open-source-datasets/
+  - title: Planning
+    url: /wiki/planning/
+    children:
+      - title: Planning Overview
+        url: /wiki/planning/planning-overview/
+      - title: A* Planner Implementation Guide
+        url: /wiki/planning/astar_planning_implementation_guide/
+      - title: Coverage Planner Implementation Guide
+        url: /wiki/planning/coverage-planning-implementation-guide/
+      - title: Resolved Rates
+        url: /wiki/planning/resolved-rates/
+      - title: Multi Robot Planning Design
+        url: /wiki/planning/multi-robot-planning/
+      - title: Motion Planning in frenet frame
+        url: /wiki/planning/frenet-frame-planning.md/
+# Main links appear in the header.
+main:
+  - title: Wiki
+    url: /wiki/
+  - title: About
+    url: /about/
+  - title: Contribute
+    url: /docs/
+
+# Navigation for supporting documentation.
+docs:
+  - title: Overview
+    children:
+      - title: Home
+        url: /
+      - title: About
+        url: /about/
+      - title: Wiki Index
+        url: /wiki/
+      - title: Contribute
+        url: /docs/
+  - title: Contribute
+    children:
+      - title: Introduction
+        url: /docs/
